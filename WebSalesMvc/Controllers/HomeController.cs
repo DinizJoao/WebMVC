@@ -15,11 +15,15 @@ namespace WebSalesMvc.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Message"] = "Salles Web MVC App from C# Course";
+            ViewData["Developer"] = "João Diniz";
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewData["Message"] =  "Salles Web MVC App from C# Course";
+            ViewData["Developer"] = "João Diniz";
             return View();
         }
 
